@@ -36,7 +36,7 @@ void OngKhoi::ThucHienDiChuyen(UINT& giaTriX)
 {
     this->toaDoVatThe.x += giaTriX;
 
-    if (toaDoVatThe.x + toaDoVatThe.w < 0)
+    if (toaDoVatThe.x + toaDoVatThe.w - 6 < 0)
     {
         daVuotQua = true;
     }

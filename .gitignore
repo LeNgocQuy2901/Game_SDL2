@@ -17,3 +17,6 @@ FlappyBirdGame/x64/Debug/vc143.idb
 *.pdb
 /FlappyBirdGame/x64/Debug
 FlappyBirdGame.sln
+MyGame/MyGame/x64/Debug/MyGame.exe.recipe
+*.idb
+/MyGame/.vs

@@ -29,7 +29,7 @@ bool KhoiGachKep::KhoiTaoKhoiGach(SDL_Renderer* render, const int& vX)
     }
     else
     {
-        khoiGachTren.SetViTri(vX, -350 + rnd);
+        khoiGachTren.SetViTri(vX, -400 + rnd);
         khoiGachDuoi.SetViTri(vX, KICH_THUOC_BAN_DO - 220 + rnd);
     }
 

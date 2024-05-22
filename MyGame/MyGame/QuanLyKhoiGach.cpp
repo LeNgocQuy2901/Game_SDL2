@@ -73,6 +73,12 @@ void QuanLyKhoiGach::ChayChuyenDong(SDL_Renderer* butVe)
                 khoiGach->SetViTri(xp);
                 khoiGach->SetDaDiQuaKhoiGach(false);
                 khoiGach->SetDaVuotQua(false);
+                soLuongDaVuotQua++;
+               
+                Mix_Chunk* amThanh = Mix_LoadWAV("sound//ting.wav");
+
+                if (amThanh != NULL)
+                    Mix_PlayChannel(-1, amThanh, 0);
                 toiDa = bIndex;
             }
 
@@ -87,22 +93,6 @@ void QuanLyKhoiGach::ChayChuyenDong(SDL_Renderer* butVe)
                 break;
             }
 
-            result = khoiGach->KiemTraDaVuotQuaKhoiGach(kichThuocBird);
-            
-            if (result)
-            {
-                //khoiGach->SetDaVuotQua(true);
-
-                /*if (khoiGach->DaVuotQuaKhoiGach())
-                {*/
-                    Mix_Chunk* amThanh = Mix_LoadWAV("sound//ting.wav");
-
-                    if (amThanh != NULL)
-                        Mix_PlayChannel(-1, amThanh, 0);
-                    soLuongDaVuotQua++;
-                    khoiGach->SetDaVuotQua(true);
-                //}
-            }
         }
 
         khoiGach->HienThiHinhAnh(butVe);
