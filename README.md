@@ -15,3 +15,11 @@ Chơi tiếp / thoát.
 
 Cách chơi
 Nhấn chuột hoặc nhấn phím UP để chơi
+nguồn tham khảo ý tưởng cơ chế để code game :
+https://tuicocach.com/lap-trinh-game-flappy-bird-tren-graphics-c-c/
+https://lazyfoo.net/tutorials/SDL/
+https://phattrienphanmem123az.com/game-project/flappy-bird-game-project-code-c.html
+https://codelearn.io/sharing/lam-game-flappy-bird-voi-pygame
+
+
+
